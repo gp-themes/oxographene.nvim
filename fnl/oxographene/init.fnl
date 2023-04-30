@@ -49,12 +49,11 @@
 
 (let! colors_name :oxographene)
 (set! termguicolors)
-
 ;; oxographene palette
 
 (local base00 "#161616")
 (local base06 "#ffffff")
-(local base09 "#78a9ff")
+(local base09 "#7a7a7a")
 
 (local oxographene (or (and (= vim.o.background :dark)
                           {: base00
@@ -65,7 +64,7 @@
                            :base05 (blend-hex base00 base06 0.95)
                            : base06
                            :base07 "#08bdba"
-                           :base08 "#3ddbd9"
+                           :base08 "#3bafd3" ; fn names
                            : base09
                            :base10 "#ee5396"
                            :base11 "#33b1ff"
@@ -597,3 +596,5 @@
 (custom-set-face! :VimwikiCode [] {:link "markdownCode"})
 
 { : oxographene }
+
+
