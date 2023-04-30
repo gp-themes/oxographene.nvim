@@ -9,7 +9,7 @@ vim.o["termguicolors"] = true
 local base00 = "#161616"
 local base06 = "#ffffff"
 local base09 = "#7a7a7a"
-local oxographene = (((vim.o.background == "dark") and {base00 = base00, base01 = blend_hex(base00, base06, 0.085), base02 = blend_hex(base00, base06, 0.18), base03 = blend_hex(base00, base06, 0.3), base04 = blend_hex(base00, base06, 0.82), base05 = blend_hex(base00, base06, 0.95), base06 = base06, base07 = "#08bdba", base08 = "#3bafd3", base09 = base09, base10 = "#ee5396", base11 = "#33b1ff", base12 = "#ff7eb6", base13 = "#42be65", base14 = "#be95ff", base15 = "#82cfff", blend = "#131313", none = "NONE"}) or {base00 = base06, base01 = blend_hex(base00, base06, 0.95), base02 = blend_hex(base00, base06, 0.82), base03 = base00, base04 = "#37474F", base05 = "#90A4AE", base06 = "#525252", base07 = "#08bdba", base08 = "#ff7eb6", base09 = "#ee5396", base10 = "#FF6F00", base11 = "#0f62fe", base12 = "#673AB7", base13 = "#42be65", base14 = "#be95ff", base15 = "#FFAB91", blend = "#FAFAFA", none = "NONE"})
+local oxographene = (((vim.o.background == "dark") and {base00 = base00, base01 = blend_hex(base00, base06, 0.085), base02 = blend_hex(base00, base06, 0.18), base03 = blend_hex(base00, base06, 0.3), base04 = blend_hex(base00, base06, 0.82), base05 = blend_hex(base00, base06, 0.95), base06 = base06, base07 = "#07af9e", base08 = "#349cbb", base09 = base09, base10 = "#ee5396", base11 = "#33b1ff", base12 = "#ff7eb6", base13 = "#42be65", base14 = "#997ee2", base15 = "#82cfff", blend = "#131313", none = "NONE"}) or {base00 = base06, base01 = blend_hex(base00, base06, 0.95), base02 = blend_hex(base00, base06, 0.82), base03 = base00, base04 = "#37474F", base05 = "#90A4AE", base06 = "#525252", base07 = "#08bdba", base08 = "#ff7eb6", base09 = "#ee5396", base10 = "#FF6F00", base11 = "#0f62fe", base12 = "#673AB7", base13 = "#42be65", base14 = "#be95ff", base15 = "#FFAB91", blend = "#FAFAFA", none = "NONE"})
 do end (vim.g)["terminal_color_0"] = oxographene.base01
 vim.g["terminal_color_1"] = oxographene.base11
 vim.g["terminal_color_2"] = oxographene.base14
@@ -126,7 +126,7 @@ vim.api.nvim_set_hl(0, "Typedef", {fg = oxographene.base09, bg = oxographene.non
 vim.api.nvim_set_hl(0, "markdownBlockquote", {fg = oxographene.base08, bg = oxographene.none})
 vim.api.nvim_set_hl(0, "markdownBold", {link = "Bold"})
 vim.api.nvim_set_hl(0, "markdownItalic", {link = "Italic"})
-vim.api.nvim_set_hl(0, "markdownBoldItalic", {fg = oxographene.none, bg = oxographene.none, italic = true, bold = true})
+vim.api.nvim_set_hl(0, "markdownBoldItalic", {fg = oxographene.none, bg = oxographene.none, bold = true, italic = true})
 vim.api.nvim_set_hl(0, "markdownRule", {link = "Comment"})
 vim.api.nvim_set_hl(0, "markdownH1", {fg = oxographene.base10, bg = oxographene.none})
 vim.api.nvim_set_hl(0, "markdownH2", {link = "markdownH1"})
@@ -227,7 +227,7 @@ vim.api.nvim_set_hl(0, "TelescopePromptTitle", {fg = oxographene.base02, bg = ox
 vim.api.nvim_set_hl(0, "TelescopeResultsTitle", {fg = oxographene.blend, bg = oxographene.blend})
 vim.api.nvim_set_hl(0, "TelescopeSelection", {fg = oxographene.none, bg = oxographene.base02})
 vim.api.nvim_set_hl(0, "TelescopePreviewLine", {fg = oxographene.none, bg = oxographene.base01})
-vim.api.nvim_set_hl(0, "TelescopeMatching", {fg = oxographene.base08, bg = oxographene.none, italic = true, bold = true})
+vim.api.nvim_set_hl(0, "TelescopeMatching", {fg = oxographene.base08, bg = oxographene.none, bold = true, italic = true})
 vim.api.nvim_set_hl(0, "NotifyERRORBorder", {fg = oxographene.base08, bg = oxographene.none})
 vim.api.nvim_set_hl(0, "NotifyWARNBorder", {fg = oxographene.base15, bg = oxographene.none})
 vim.api.nvim_set_hl(0, "NotifyINFOBorder", {fg = oxographene.base05, bg = oxographene.none})

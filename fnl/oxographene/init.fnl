@@ -63,14 +63,14 @@
                            :base04 (blend-hex base00 base06 0.82)
                            :base05 (blend-hex base00 base06 0.95)
                            : base06
-                           :base07 "#08bdba"
-                           :base08 "#3bafd3" ; fn names
+                           :base07 "#07af9e" ; macro names
+                           :base08 "#349cbb" ; fn names
                            : base09
                            :base10 "#ee5396"
                            :base11 "#33b1ff"
                            :base12 "#ff7eb6"
                            :base13 "#42be65"
-                           :base14 "#be95ff"
+                           :base14 "#997ee2"
                            :base15 "#82cfff"
                            :blend "#131313"
                            :none :NONE})
@@ -88,7 +88,7 @@
                       :base11 "#0f62fe"
                       :base12 "#673AB7"
                       :base13 "#42be65"
-                      :base14 "#be95ff"
+                      :base14 "#be95ff" ; strings
                       :base15 "#FFAB91"
                       :blend "#FAFAFA"
                       :none :NONE}))
