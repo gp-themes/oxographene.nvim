@@ -1,20 +1,6 @@
-# oxocarbon.nvim
+# oxographene.nvim
 
-**Note:** The old rust version can be found on the `rust` branch of this repository
-
-**Oxocarbon is looking for ports!** If you're a user of another editor or tool, join our discord to learn more about porting oxocarbon to other applications. https://discord.gg/M528tDKXRG 
-
-A dark and light Neovim theme written in fennel, inspired by [IBM Carbon](https://carbondesignsystem.com/guidelines/color/overview/#themes). This is the reference implementation of the oxocarbon theme. 
-
-The color palette expands on Nyoom's unique aesthetic and represents a contemporary and ever-changing IBM. Balancing mankind and machine, the colors are harmonious with nature, yet chosen for their luminous quality in the digital world. The oxocarbon color palette is a subset of the broader IBM palette.
-
-The colorscheme is centered around a vibrant set of blues, combined with an industrial set of grays. The full palette extends from the blue family to the edges of the blue spectrum—even the reds contain a hint of blue.
-
-The resulting palette is a set of colors that portrays a singular IBM. Of the world and digital. Useful and judicious. Having multiple gray families gives each design the opportunity for nuance and meaningful moments of color. Each experience should be dominated by the grays and the core colors of black, white, and the blue family, allowing the other color families to have vibrancy and provide purpose.
-
-![merged](https://user-images.githubusercontent.com/71196912/206819503-736cbede-fdf2-4be3-baaa-d640c8498abf.png)
-
-<img width="1311" alt="image" src="https://user-images.githubusercontent.com/71196912/181996667-f1bf7ab0-eba2-4f80-b914-b5f48f51a03e.png">
+forked from oxocarbon [@nyoom-engineering/oxocarbon.nvim](https://github.com/gp-themes/oxographene.nvim)
 
 ## Features
 
@@ -46,7 +32,7 @@ The colorscheme requires the latest stable or nightly neovim (> `v0.7.0`)
 ### Packer.nvim
 
 ```lua
-use {'nyoom-engineering/oxocarbon.nvim'}
+use {'gp-themes/oxographene.nvim'}
 ```
 
 ### Usage
@@ -55,18 +41,18 @@ For neovim nightly users:
 
 ```lua
 vim.opt.background = "dark" -- set this to dark or light
-vim.cmd.colorscheme "oxocarbon"
+vim.cmd.colorscheme "oxographene"
 ```
 
 For neovim stable users:
 
 ```lua
 vim.opt.background = "dark" -- set this to dark or light
-vim.cmd("colorscheme oxocarbon")
+vim.cmd("colorscheme oxographene")
 ```
 
 For nyoom.nvim users:
-Nyoom comes bundled with a version of oxocarbon. Enable the `ui.nyoom` module
+Nyoom comes bundled with a version of oxographene. Enable the `ui.nyoom` module
 
 ## Development
 
